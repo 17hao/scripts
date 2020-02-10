@@ -7,7 +7,7 @@ if a == 1 then
 end
 
 if a < 0 then
-    print("a is litter than 0.")
+    print("a is less than 0.")
 elseif a > 1 then
     print("a is greater than 1.")
 else

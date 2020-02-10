@@ -1,15 +1,15 @@
 -- Author: sqh
 -- Date: 2020-2-7
 
-function tailRecursiveFac(v, result)
+function tail_recursive_fac(v, result)
     if (v == 1) then
         return result
     else
-        return tailRecursiveFac(v - 1, result * v)
+        return tail_recursive_fac(v - 1, result * v)
     end
 end
 
-print(tailRecursiveFac(10, 1))
+print(tail_recursive_fac(10, 1))
 
 -- ============= SEPARATOR =============
 

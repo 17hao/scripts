@@ -26,14 +26,14 @@ end
 print(fibonacci(10))
 
 -- optimized tail recursion
-function tailRecursiveFibo(x, y, n)
+function tail_recursive_fibo(x, y, n)
     if (n == 1) then
         return x
     elseif (n == 2) then
         return y
     else
-        return tailRecursiveFibo(y, x + y, n - 1)
+        return tail_recursive_fibo(y, x + y, n - 1)
     end
 end
 
-print(tailRecursiveFibo(1, 1, 10))
+print(tail_recursive_fibo(1, 1, 10))
