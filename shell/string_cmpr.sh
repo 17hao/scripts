@@ -13,7 +13,7 @@ fi
 val1=lyj
 val2=sqh
 
-if [ $val1 \> $val2 ]
+if ( $val1 \> $val2 )
 then
 	echo "$val1 is greater than $val2"
 else
