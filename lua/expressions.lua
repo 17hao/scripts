@@ -18,6 +18,7 @@ print("The max value in x and y is: " .. max)
 print("hello" .. ", " .. "world")
 
 -- Table Constructors
+-- lua的table是一种关联数组(associative array), 它融合了数组和哈希表的功能. 从这点上看, 数组和哈希表一样都是存储一对对关联数据的容器.
 local m = {"x", "y", "z"}
 print(m[1]) -- !the first element has index 1, not 0
 m[1] = 0 -- replacement element
