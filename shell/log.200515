@@ -1,0 +1,15 @@
+total 88
+drwxr-xr-x  14 17hao  staff  448  5 15 11:55 .
+drwxr-xr-x  11 17hao  staff  352  4 28 09:27 ..
+-rwxrwxrwx   1 17hao  staff  155  2  8 17:11 arguments.sh
+-rwxrwxrwx   1 17hao  staff  257  2 17 20:01 control_struc.sh
+-rw-r--r--   1 17hao  staff  163  2 13 10:36 counting.sh
+-rw-r--r--   1 17hao  staff   81 11  4  2019 file1
+-rw-r--r--   1 17hao  staff   18 11  4  2019 file2
+-rw-r--r--   1 17hao  staff    0  5 15 11:55 log.200515
+-rwxrwxrwx   1 17hao  staff  154  2  6 22:19 numeric_test.sh
+-rwxr--r--   1 17hao  staff   62  2  7 17:34 pipeline.sh
+-rwxrwxrwx   1 17hao  staff  164  5 15 11:55 redirect.sh
+-rwx------   1 17hao  staff  354  5 15 11:49 str_test.sh
+-rwxrwxrwx   1 17hao  staff  263  5 15 11:53 string_cmpr.sh
+-rwxrwxrwx   1 17hao  staff  115  2  8 17:11 variables.sh
