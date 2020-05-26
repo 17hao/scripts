@@ -1,6 +1,13 @@
 #!/bin/bash
 
 # testing string comparision
+
+if [ -z $1 ]; then
+	echo "$1"
+else
+	echo "arguments is empty"
+fi
+
 testuser=baduser
 
 if [ $USER = testuser ]; then
