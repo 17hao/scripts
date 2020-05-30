@@ -2,7 +2,7 @@
 
 echo "start sleeping..."
 
-seconds=10
+seconds=$1
 
 while [ $seconds -gt 0 ]; do
     echo $seconds
