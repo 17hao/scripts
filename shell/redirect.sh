@@ -13,6 +13,6 @@ ls -0 > redirect.log 2>&1
 ls -al &> redirect.log # semantically equivalent to above command
 
 
-ps -0 2>&1 # redirect strerr(fd:1) to stdout(fd:2)
+ps -0 2>&1 # redirect strerr(fd:2) to stdout(fd:1)
 
 pa >/dev/null 2>&1 # redirect stderr and stdout to /dev/null(black hole)

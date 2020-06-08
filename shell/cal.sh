@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# calculate lua interpreter source file size
 ls -l /usr/local/lua-5.3.5/src/ >> ll.log
 
 cat ll.log | 
