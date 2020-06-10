@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Using numeric test evalutions
 
 value1=10
