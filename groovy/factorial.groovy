@@ -3,4 +3,15 @@ def factorial(n) {
     else return factorial(n - 1) * n
 }
 
-print(factorial(5))
+println(factorial(5))
+
+
+def tailRecursiveFact(x, y) {
+    if (y == 1) {
+        return x
+    } else {
+        return tailRecursiveFact(x * y, y - 1)
+    }
+}
+
+print(tailRecursiveFact(1, 5))
