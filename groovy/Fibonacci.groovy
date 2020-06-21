@@ -4,9 +4,9 @@
 // 0, 1, 1, 2, 3, 5, 8, 13...
 def fibonacci(n) {
     if (n < 2) {
-        return n
+        n
     } else {
-        return fibonacci(n - 1) + fibonacci(n - 2)
+        fibonacci(n - 1) + fibonacci(n - 2)
     }
 }
 
@@ -16,9 +16,9 @@ println(fibonacci(10))
 
 def tailRecursiveFibo(x, y, n) {
     if (n == 2) {
-        return y
+        y
     } else {
-        return tailRecursiveFibo(y, x + y, n - 1)
+        tailRecursiveFibo(y, x + y, n - 1)
     }
 }
 
