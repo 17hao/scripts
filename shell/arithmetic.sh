@@ -12,7 +12,10 @@ z=$(( val - 10 ))
 echo "val - 10: $z"
 
 m=$(( --val ))
-echo "--val: $m"
+# (( m =--val )) equals to above
+# (( val = --val )) another usage
+echo "--val: $val"
 
 n=$(( x + y ))
+# (( n = x + y )) equals to above
 echo "x + y: $n"
