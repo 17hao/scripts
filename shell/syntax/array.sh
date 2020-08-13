@@ -1,26 +1,30 @@
 #!/bin/bash
 
-declare -a array
+# declare -a array
 array=("a" "b")
 
-echo "+++"
+echo "=== 1 ==="
+
 for element in $array; do
     echo $element
 done
 
-echo "+++"
+echo "=== 2 ==="
 
 for element in ${array[@]}; do
     echo $element
 done
 
-echo "+++"
+echo "=== 3 ==="
 
 for index in ${!array[@]}; do
     echo ${array[index]}
 done
 
-echo "+++"
-echo "number of array: ${#array[@]}"
-echo
+echo "=== 4 ==="
+
+echo "length of array: ${#array[@]}"
+
+echo "=== 5 ==="
+
 echo ${array[@]}

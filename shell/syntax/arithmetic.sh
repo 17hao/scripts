@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# arithmetic calculate
+
 val=10
 
 x=$[ $val + 10 ]
@@ -12,10 +14,10 @@ z=$(( val - 10 ))
 echo "val - 10: $z"
 
 m=$(( --val ))
-# (( m =--val )) equals to above
-# (( val = --val )) another usage
+# (( m =--val )) # equals to above
+# (( val = --val )) # another usage
 echo "--val: $val"
 
 n=$(( x + y ))
-# (( n = x + y )) equals to above
+# (( n = x + y )) # equals to above
 echo "x + y: $n"
