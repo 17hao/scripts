@@ -1,4 +1,4 @@
 #!/bin/bash
 
 ip=$(curl -s http://myip.ipip.net)
-echo "My public IP address is: $ip"
+echo $(curl -s http://myip.ipip.net)

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# arithmetic calculate
+# arithmetic operations
 
 val=10
 
